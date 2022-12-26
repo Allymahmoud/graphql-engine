@@ -15,15 +15,15 @@
     "apollo-client": "^2.4.12",
     "apollo-link-http": "^1.5.9",
     "axios": "^0.18.0",
-    "babel-loader": "^8.0.5",
+    "babel-loader": "^8.2.4",
     "graphql": "^14.1.1",
     "graphql-tag": "^2.10.1",
     "node-fetch": "^2.3.0",
     "react": "^16.6.3",
     "react-apollo": "^2.4.1",
     "react-dom": "^16.6.3",
-    "react-hot-loader": "^4.3.12",
-    "react-static": "^6.0.18"
+    "react-hot-loader": "^4.13.1",
+    "react-static": "^7.0.0"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
