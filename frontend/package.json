@@ -89,7 +89,7 @@
     "moment": "^2.26.0",
     "moment-timezone": "^0.5.27",
     "piping": "0.3.2",
-    "posthog-js": "^1.4.3",
+    "posthog-js": "^1.57.2",
     "prettier": "^1.16.4",
     "pretty-error": "1.2.0",
     "prop-types": "15.7.2",
