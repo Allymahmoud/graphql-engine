@@ -10,7 +10,8 @@
     "react-bootstrap": "^1.0.0",
     "react-dom": "^16.4.2",
     "react-google-charts": "^3.0.5",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.1",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -18,7 +19,9 @@
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "devDependencies": {
     "eslint-plugin-jsx-a11y": "^6.2.3",
@@ -35,5 +38,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "snyk": true
 }
