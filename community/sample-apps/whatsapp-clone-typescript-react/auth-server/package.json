@@ -36,7 +36,7 @@
     "objection-db-errors": "^1.0.0",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0",
-    "pg": "^7.5.0",
+    "pg": "^8.4.0",
     "tmp": "0.0.33"
   }
 }
