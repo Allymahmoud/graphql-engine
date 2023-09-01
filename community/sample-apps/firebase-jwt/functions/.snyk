@@ -1,0 +1,109 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-AXIOS-174505:
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > axios
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gcp-metadata > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gcp-metadata > axios
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > gcp-metadata > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > gcp-metadata > axios
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > gcp-metadata > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > gcs-resumable-upload >
+          google-auto-auth > gcp-metadata > axios
+    - firebase-admin > @google-cloud/firestore > google-gax > google-auth-library > gtoken > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          google-auth-library > gtoken > axios
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > google-auth-library > axios
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > gcs-resumable-upload >
+          google-auto-auth > google-auth-library > axios
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > google-auth-library > gcp-metadata > axios
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gcp-metadata > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > gcs-resumable-upload >
+          google-auto-auth > google-auth-library > gcp-metadata > axios
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > google-auth-library > gtoken > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > google-auth-library > gtoken > axios
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > google-auth-library > gtoken > axios:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-AXIOS-174505
+        path: >-
+          firebase-admin > @google-cloud/storage > gcs-resumable-upload >
+          google-auto-auth > google-auth-library > gtoken > axios
+  SNYK-JS-LODASH-567746:
+    - firebase-admin > @google-cloud/firestore > google-gax > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/firestore > google-gax > lodash
+    - firebase-admin > @google-cloud/storage > async > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/storage > async > lodash
+    - firebase-admin > @google-cloud/firestore > google-gax > @grpc/proto-loader > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/firestore > google-gax >
+          @grpc/proto-loader > lodash
+    - firebase-admin > @google-cloud/firestore > google-gax > grpc > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: firebase-admin > @google-cloud/firestore > google-gax > grpc > lodash
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > google-auto-auth > async > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          google-auto-auth > async > lodash
+    - firebase-admin > @google-cloud/storage > gcs-resumable-upload > google-auto-auth > async > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/storage > gcs-resumable-upload >
+          google-auto-auth > async > lodash
+    - firebase-admin > @google-cloud/storage > @google-cloud/common > split-array-stream > async > lodash:
+        patched: '2023-09-01T17:15:10.414Z'
+        id: SNYK-JS-LODASH-567746
+        path: >-
+          firebase-admin > @google-cloud/storage > @google-cloud/common >
+          split-array-stream > async > lodash
