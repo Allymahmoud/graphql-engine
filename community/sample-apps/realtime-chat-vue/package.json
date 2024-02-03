@@ -15,7 +15,7 @@
     "apollo-link-ws": "^1.0.17",
     "apollo-utilities": "^1.2.1",
     "moment": "^2.24.0",
-    "subscriptions-transport-ws": "^0.9.16",
+    "subscriptions-transport-ws": "^0.11.0",
     "vue": "^2.6.6",
     "vue-apollo": "^3.0.0-beta.28",
     "vue-router": "^3.0.1",
