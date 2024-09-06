@@ -3,16 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/core": "^10.0.28",
-    "@emotion/styled": "^10.0.27",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.5.0",
+    "@emotion/core": "^11.0.0",
+    "@emotion/styled": "^11.0.0",
+    "@testing-library/jest-dom": "^6.4.3",
+    "@testing-library/react": "^16.0.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-relay": "^0.0.0-experimental-94e87455",
-    "react-scripts": "3.4.1",
-    "relay-runtime": "^9.1.0"
+    "react-scripts": "5.0.0",
+    "relay-runtime": "^13.0.0"
   },
   "scripts": {
     "start": "yarn run relay && react-scripts start",
