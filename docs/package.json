@@ -17,12 +17,12 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-beta.18",
-    "@docusaurus/preset-classic": "^2.0.0-beta.18",
+    "@docusaurus/core": "^3.0.1",
+    "@docusaurus/preset-classic": "^3.0.1",
     "@mdx-js/react": "^1.6.21",
     "algoliasearch-helper": "^3.7.4",
     "clsx": "^1.1.1",
-    "docusaurus-plugin-sass": "^0.2.2",
+    "docusaurus-plugin-sass": "^0.2.6",
     "graphiql": "^1.5.1",
     "graphql": "^15.7.2",
     "prism-react-renderer": "^1.2.1",
