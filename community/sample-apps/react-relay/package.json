@@ -10,16 +10,19 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-relay": "^0.0.0-experimental-94e87455",
+    "react-relay": "^0.0.0",
     "react-scripts": "3.4.1",
-    "relay-runtime": "^9.1.0"
+    "relay-runtime": "^9.1.0",
+    "@snyk/protect": "latest"
   },
   "scripts": {
     "start": "yarn run relay && react-scripts start",
     "build": "yarn run relay && react-scripts build",
     "relay": "yarn run relay-compiler --schema schema.graphql --src ./src",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -41,5 +44,6 @@
     "graphql": "^15.0.0",
     "relay-compiler": "^9.1.0",
     "relay-config": "^9.1.0"
-  }
+  },
+  "snyk": true
 }
