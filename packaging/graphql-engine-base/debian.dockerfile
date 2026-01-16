@@ -1,6 +1,6 @@
 # DATE VERSION: 2022-09-21
 # Modify the above date version (YYYY-MM-DD) if you want to rebuild the image for security updates
-FROM debian:bullseye-20220912-slim
+FROM debian:11.11-slim
 
 ### NOTE! Shared libraries here need to be kept in sync with `server-builder.dockerfile`!
 
