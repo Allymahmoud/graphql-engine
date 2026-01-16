@@ -15,3 +15,5 @@ matplotlib
 pandas
 boto3
 seaborn
+pillow>=10.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
