@@ -10,9 +10,9 @@
     "random-words": "1.1.0",
     "react": "16.8.6",
     "react-apollo": "2.5.5",
-    "react-bootstrap": "1.0.0-beta.8",
+    "react-bootstrap": "1.0.0",
     "react-dom": "16.8.6",
-    "react-scripts": "3.0.0",
+    "react-scripts": "5.0.0",
     "subscriptions-transport-ws": "0.9.16"
   },
   "scripts": {
