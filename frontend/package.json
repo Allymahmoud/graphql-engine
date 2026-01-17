@@ -64,7 +64,7 @@
     "graphiql-explorer-hasura": "0.0.7",
     "graphql": "14.5.8",
     "graphql-tag": "^2.10.1",
-    "graphql-voyager": "1.0.0-rc.29",
+    "graphql-voyager": "1.0.0",
     "hasura-console-graphiql": "0.0.11",
     "highlight.js": "9.15.8",
     "history": "3.3.0",
