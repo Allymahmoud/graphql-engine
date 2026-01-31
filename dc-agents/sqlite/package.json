@@ -30,7 +30,7 @@
     "pino-pretty": "^8.1.0",
     "sequelize": "^6.21.2",
     "sqlite-parser": "^1.0.1",
-    "sqlite3": "^5.0.8",
+    "sqlite3": "^5.1.7",
     "sqlstring-sqlite": "^0.1.1"
   },
   "devDependencies": {
